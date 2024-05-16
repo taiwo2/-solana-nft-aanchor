@@ -1,0 +1,19 @@
+use anchor_lang::prelude::*;
+
+// declare_id!("4Ap2CzV9CFahYaL7ti4AqxTwWGJ3dS7sxUppZqZa7t7D");
+
+// #[program]
+// pub mod solana_nft_aanchor {
+//     use super::*;
+
+//     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+//         Ok(())
+//     }
+// }
+
+// #[derive(Accounts)]
+// use anchor_lang::prelude::*;
+// use anchor_spl::{
+//     associated_token::AssociatedToken,
+//     token::{mint_to, Mint, MintTo, Token, TokenAccount},
+// };

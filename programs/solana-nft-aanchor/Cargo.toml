@@ -1,0 +1,25 @@
+[package]
+name = "solana-nft-aanchor"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solana_nft_aanchor"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = { version = "0.30.0", features = ["init-if-needed"] }
+anchor-spl = { version = "0.30.0", features = ["metadata"] }
+mpl-token-metadata = "1.13.1"
+
+solana-sdk = "1.10.0"  # Example compatible version
+spl-token = "3.4.0"
